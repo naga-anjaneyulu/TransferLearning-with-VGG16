@@ -1,11 +1,4 @@
 
-# https://deeplearningcourses.com/c/advanced-computer-vision
-# https://www.udemy.com/advanced-computer-vision
-from __future__ import print_function, division
-from builtins import range, input
-# Note: you may need to update your version of future
-# sudo pip install -U future
-
 from keras.layers import Input, Lambda, Dense, Flatten
 from keras.models import Model
 from keras.applications.vgg16 import VGG16
